@@ -821,9 +821,12 @@
 
 <script>
   // import table from './tracking.json'
-
+ 
   export default {
+    
     data: () => ({
+
+     counter_p :  0,
 
       search:'',
       status_p:['Plan'],
@@ -861,9 +864,9 @@
       editedIndex: -1,
       editedItem: {
         model:'',
-        part_number:0,
+        part_number:'',
         project_type:'',
-        quantity:0,
+        quantity:'',
         priority:'',
         status_p:'',
         start_p:'',
@@ -871,32 +874,46 @@
         days:0,
         completed:0,
         kicks:0,
-        drawing:'',
-        steel:'',
-        die:'',
-        jigs:'',
-        broach:'',
-        gauges:'',
-        forging:'',
-        soft:'',
-        heat:'',
-        qg:'',
-
-
-        // Separater
-        module:'',
-        name: '',
-        calories: 0,
-        fat: 0,
-        carbs: '',
-        protein: 0,
+        drawing:0,
+        steel:0,
+        die:0,
+        jigs:0,
+        broach:0,
+        gauges:0,
+        forging:0,
+        soft:0,
+        heat:0,
+        qg:0,
+      },
+      editedItem2: {
+        model:'',
+        part_number:'',
+        project_type:'',
+        quantity:'',
+        priority:'',
+        status_p:'Actual',
+        start_p:'',
+        end_p:'',
+        days:0,
+        completed:0,
+        kicks:0,
+        drawing:0,
+        steel:0,
+        die:0,
+        jigs:0,
+        broach:0,
+        gauges:0,
+        forging:0,
+        soft:0,
+        heat:0,
+        qg:0,
       },
       defaultItem: {
 
         model:'',
-        part_number:0,
+        part_number:'',
         project_type:'',
-        quantity:0,
+        quantity:'',
         priority:'',
         status_p:'',
         start_p:'',
@@ -904,25 +921,20 @@
         days:0,
         completed:0,
         kicks:0,
-        drawing:'',
-        steel:'',
-        die:'',
-        jigs:'',
-        broach:'',
-        gauges:'',
-        forging:'',
-        soft:'',
-        heat:'',
-        qg:'',
+        drawing:0,
+        steel:0,
+        die:0,
+        jigs:0,
+        broach:0,
+        gauges:0,
+        forging:0,
+        soft:0,
+        heat:0,
+        qg:0,
 
 
         // Separater
-        module:'',
-        name: '',
-        calories: 0,
-        fat: '',
-        carbs: 0,
-        protein: 0,
+       
       },
     }),
 
@@ -957,7 +969,7 @@
         {
         
         model:'AM13A3',
-        part_number:0,
+        part_number:'',
         project_type:'A',
         quantity:1500,
         priority:'M',
@@ -969,24 +981,24 @@
         kicks:0,
         drawing:'2022-12-22',
         steel:'2022-12-26',
-        die:'',
+        die:0,
         
         broach:0,
         gauges:0,
-        forging:'',
-        soft:'',
-        heat:'',
-        qg:'',
+        forging:0,
+        soft:0,
+        heat:0,
+        qg:0,
            
         },
 
         {
-        model:'AM14A2',
-        part_number:0,
-        project_type:'A',
-        quantity:1500,
-        priority:'M',
-        status_p:'plan',
+        model:'',
+        part_number:'',
+        project_type:'',
+        quantity:'',
+        priority:'',
+        status_p:'Actual',
         start_p:'',
         end_p:'',
         days:0,
@@ -1007,7 +1019,7 @@
 
         {
         model:'AM16A3',
-        part_number:0,
+        part_number:'',
         project_type:'B',
         quantity:209,
         priority:'M',
@@ -1030,15 +1042,15 @@
         },
 
         {
-        model:'AM16A4',
-        part_number:0,
-        project_type:'A',
-        quantity:103,
-        priority:'H',
-        status_p:'plan',
-        start_p:'2022-11-07',
-        end_p:'2022-12-09',
-        days:32,
+        model:'',
+        part_number:'',
+        project_type:'',
+        quantity:'',
+        priority:'',
+        status_p:'Actual',
+        start_p:'',
+        end_p:'',
+        days:0,
         completed:0,
         kicks:0,
         drawing:'',
@@ -1046,16 +1058,16 @@
         die:0,
         broach:0,
         gauges:0,
-        forging:'2022-11-09',
-        soft:'2022-12-05',
-        heat:'2022-12-08',
-        qg:'2022-12-09',
+        forging:'',
+        soft:'',
+        heat:'',
+        qg:'',
            
         },
 
         {
         model:'AM05L1',
-        part_number:0,
+        part_number:'',
         project_type:'A',
         quantity:500,
         priority:'M',
@@ -1078,12 +1090,12 @@
         },
 
         {
-        model:'EA04A1',
-        part_number:0,
-        project_type:'D',
-        quantity:20,
-        priority:'M',
-        status_p:'plan',
+        model:'',
+        part_number:'',
+        project_type:'',
+        quantity:'',
+        priority:'',
+        status_p:'Actual',
         start_p:'',
         end_p:'',
         days:0,
@@ -1100,29 +1112,9 @@
         qg:'',
            
         },
-        {
-        model:'ES04A2',
-        part_number:0,
-        project_type:'C',
-        quantity:40,
-        priority:'M',
-        status_p:'plan',
-        start_p:'2022-10-14',
-        end_p:'2022-11-15',
-        days:32,
-        completed:75,
-        kicks:0,
-        drawing:'',
-        steel:'',
-        die:0,
-        broach:0,
-        gauges:0,
-        forging:'',
-        soft:'2022-11-05',
-        heat:'2022-11-12',
-        qg:'2022-11-15',
-           
-        },
+
+        
+        
 
         ]
       },
@@ -1163,8 +1155,11 @@
       save () {
         if (this.editedIndex > -1) {
           Object.assign(this.desserts[this.editedIndex], this.editedItem)
+        
         } else {
           this.desserts.push(this.editedItem)
+          this.desserts.push(this.editedItem2)
+         
         }
         this.close()
       },
