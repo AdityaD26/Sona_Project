@@ -1,0 +1,2254 @@
+{
+    "data":
+[
+ 
+ {
+  "Model": "AM13A3",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan",
+  "% complete": 0,
+  "Drawing Approval from customer": "22 Dec 2022",
+  "Steel master release": "26 Dec 2022"
+ },
+ null,
+ null,
+ null,
+ {
+  "Model": "AM14A2 ",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan",
+  "% complete": 0
+ },
+ {
+  "Model": "PPC is handling",
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "AM16A3",
+  "Qty": 209,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "14 Oct 2022",
+  "End date": "30 Nov 2022",
+  "# of days": 47,
+  "% complete": 0.75,
+  "Forging\n(QG-1)": "23 Oct 2022",
+  "Soft Machining": "8 Nov 2022",
+  "Heat treatment": "24 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "14 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 72,
+  "Forging\n(QG-1)": "17 Oct 2022",
+  "Soft Machining": "28 Oct 2022",
+  "Heat treatment": "14 Nov 2022",
+  "QG4": "19 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with AM16A1",
+  "Soft Machining": "320 no's",
+  "Heat treatment": "275 no's",
+  "QG4": "200 no's FGS"
+ },
+ null,
+ {
+  "Model": "AM16A4",
+  "Qty": 103,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "14 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 72,
+  "% complete": 0.75,
+  "Forging\n(QG-1)": "23 Oct 2022",
+  "Soft Machining": "8 Nov 2022",
+  "Heat treatment": "24 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "14 Oct 2022",
+  "End date": "3 Nov 2022",
+  "# of days": 20,
+  "Forging\n(QG-1)": "17 Oct 2022",
+  "Soft Machining": "28 Oct 2022",
+  "Heat treatment": "3 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with AM16A2",
+  "Soft Machining": "169 no's",
+  "Heat treatment": "DOP oversize, New lot to be processed"
+ },
+ null,
+ {
+  "Model": "AM16A4",
+  "Qty": 103,
+  "Priority": "H",
+  "Status": "plan",
+  "Start date": "7 Nov 2022",
+  "End date": "9 Dec 2022",
+  "# of days": 32,
+  "Forging\n(QG-1)": "9 Nov 2022",
+  "Soft Machining": "24 Nov 2022",
+  "Heat treatment": "29 Nov 2022",
+  "QG4": "2 Dec 2022"
+ },
+ {
+  "Status": "Re-Schedule",
+  "Soft Machining": "5 Dec 2022",
+  "Heat treatment": "8 Dec 2022",
+  "QG4": "9 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "7 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 48,
+  "Forging\n(QG-1)": "8 Nov 2022",
+  "Soft Machining": "7 Dec 2022",
+  "Heat treatment": "8 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with AM16A2",
+  "Soft Machining": "Broach revise by 3-dec"
+ },
+ null,
+ {
+  "Model": "AM05L1",
+  "Qty": 500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Dec 2022",
+  "End date": "31 Dec 2022",
+  "# of days": 29,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "25 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "31 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 23,
+  "Forging\n(QG-1)": "8 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "250 no's"
+ },
+ null,
+ {
+  "Model": "AM05G1",
+  "Qty": 300,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Dec 2022",
+  "End date": "31 Dec 2022",
+  "# of days": 29,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "25 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "31 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 23
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "ES04A1",
+  "Qty": 20,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark",
+  "QG4": "Available in FGS"
+ },
+ null,
+ {
+  "Model": "ES04A2",
+  "Qty": 40,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "14 Oct 2022",
+  "End date": "15 Nov 2022",
+  "# of days": 32,
+  "% complete": 0.75,
+  "Soft Machining": "5 Nov 2022",
+  "Heat treatment": "12 Nov 2022",
+  "QG4": "15 Nov 2022"
+ },
+ {
+  "Status": "Re-Schedule"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "14 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 72,
+  "Soft Machining": "7 Nov 2022",
+  "Heat treatment": "28 Nov 2022",
+  "QG4": "54 no's"
+ },
+ {
+  "Status": "Remark",
+  "Heat treatment": "Broach revise due to JD05A2 oversize"
+ },
+ null,
+ {
+  "Model": "ES04B1",
+  "Qty": 90,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "14 Oct 2022",
+  "End date": "15 Nov 2022",
+  "# of days": 32,
+  "% complete": 1,
+  "Soft Machining": "5 Nov 2022",
+  "Heat treatment": "12 Nov 2022",
+  "QG4": "15 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "14 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 72,
+  "Heat treatment": "11 Nov 2022",
+  "QG4": "25 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "QG4": "customer part no punching completed on 11 nov 22\n84 no's submitted for QG-4 on 11 nov 22"
+ },
+ null,
+ {
+  "Model": "ES03C2",
+  "Qty": 500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "11 Feb 2023",
+  "# of days": 72,
+  "% complete": 0,
+  "Forging\n(QG-1)": "16 Dec 2022",
+  "Soft Machining": "25 Jan 2023",
+  "Heat treatment": "4 Feb 2023",
+  "QG4": "11 Feb 2023"
+ },
+ {
+  "Model": "Hold",
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "ES03D2",
+  "Qty": 500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "11 Feb 2023",
+  "# of days": 72,
+  "% complete": 0,
+  "Forging\n(QG-1)": "16 Dec 2022",
+  "Soft Machining": "25 Jan 2023",
+  "Heat treatment": "4 Feb 2023",
+  "QG4": "11 Feb 2023"
+ },
+ {
+  "Model": "Hold",
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "ES05C1",
+  "Qty": 24,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "ES05D1",
+  "Qty": 24,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM26C2",
+  "Qty": 432,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "5 Aug 2022",
+  "End date": "27 Dec 2022",
+  "# of days": 144,
+  "% complete": 0,
+  "Forging\n(QG-1)": "30 Sep 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "22 Dec 2022",
+  "QG4": "27 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "5 Aug 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 142,
+  "Forging\n(QG-1)": "27 Oct 2022"
+ },
+ {
+  "Status": "Remark",
+  "Soft Machining": "- ItJ stand\n- P.C.D 0.1mm"
+ },
+ null,
+ {
+  "Model": "MM26C2",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "4 Feb 2023",
+  "# of days": 65,
+  "% complete": 0,
+  "Forging\n(QG-1)": "21 Dec 2022",
+  "Soft Machining": "15 Jan 2023",
+  "Heat treatment": "25 Jan 2023",
+  "QG4": "4 Feb 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM26D2",
+  "Qty": 431,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "1 Jan 2023",
+  "# of days": 31,
+  "% complete": 0,
+  "Forging\n(QG-1)": "11 Dec 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "1 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM29D2",
+  "Qty": 540,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 28,
+  "% complete": 0,
+  "Forging\n(QG-1)": "8 Dec 2022",
+  "Soft Machining": "23 Dec 2022",
+  "Heat treatment": "26 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM29C1",
+  "Qty": 540,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Dec 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "9 Dec 2022",
+  "Soft Machining": "19 Dec 2022",
+  "Heat treatment": "25 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 23
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM29D1",
+  "Qty": 540,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Dec 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "9 Dec 2022",
+  "Soft Machining": "19 Dec 2022",
+  "Heat treatment": "25 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 23
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM29C2",
+  "Qty": 540,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Dec 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "9 Dec 2022",
+  "Soft Machining": "19 Dec 2022",
+  "Heat treatment": "25 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 23
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM26C4",
+  "Qty": 240,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "23 Sep 2022",
+  "End date": "30 Dec 2022",
+  "# of days": 98,
+  "% complete": 0,
+  "Forging\n(QG-1)": "23 Oct 2022",
+  "Soft Machining": "22 Nov 2022",
+  "Heat treatment": "29 Nov 2022",
+  "QG4": "6 Dec 2022"
+ },
+ {
+  "Status": "Re-Schedule",
+  "Soft Machining": "20 Dec 2022",
+  "Heat treatment": "27 Dec 2022",
+  "QG4": "30 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "23 Sep 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 93,
+  "Forging\n(QG-1)": "28 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "- Billet turning P.O issue\n- Separator bin NA\n- 269 no's QG-1\n- radius template gauge",
+  "Soft Machining": "- Bulging issue\n- ItJ stand\n- P.C.D 0.1mm\n"
+ },
+ null,
+ {
+  "Model": "MM30B1",
+  "Qty": 120,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "31 Dec 2022",
+  "# of days": 30,
+  "% complete": 0,
+  "Forging\n(QG-1)": "11 Dec 2022",
+  "Soft Machining": "24 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "31 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM30A1",
+  "Qty": 120,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "2 Jan 2023",
+  "# of days": 32,
+  "% complete": 0,
+  "Forging\n(QG-1)": "13 Dec 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "31 Dec 2022",
+  "QG4": "2 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM30A2",
+  "Qty": 120,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "2 Jan 2023",
+  "# of days": 32,
+  "% complete": 0,
+  "Forging\n(QG-1)": "13 Dec 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "31 Dec 2022",
+  "QG4": "2 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM30C1",
+  "Qty": 240,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "2 Jan 2023",
+  "# of days": 32,
+  "% complete": 0,
+  "Forging\n(QG-1)": "13 Dec 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "31 Dec 2022",
+  "QG4": "2 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM30D1",
+  "Qty": 240,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "2 Jan 2023",
+  "# of days": 32,
+  "% complete": 0,
+  "Forging\n(QG-1)": "13 Dec 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "31 Dec 2022",
+  "QG4": "2 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT04C2",
+  "Qty": 1900,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "24 Jan 2023",
+  "# of days": 54,
+  "% complete": 0,
+  "Forging\n(QG-1)": "11 Dec 2022",
+  "Soft Machining": "10 Jan 2023",
+  "Heat treatment": "17 Jan 2023",
+  "QG4": "24 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark",
+  "Soft Machining": "- ItJ stand\n- P.C.D 0.1mm"
+ },
+ null,
+ {
+  "Model": "PT04D2",
+  "Qty": 1900,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "22 Jan 2023",
+  "# of days": 52,
+  "% complete": 0,
+  "Forging\n(QG-1)": "9 Dec 2022",
+  "Soft Machining": "8 Jan 2023",
+  "Heat treatment": "15 Jan 2023",
+  "QG4": "22 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT04A1",
+  "Qty": 1700,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT04B1",
+  "Qty": 1700,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT04C1",
+  "Qty": 1900,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT04D1",
+  "Qty": 1900,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT05A1",
+  "Qty": 950,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "4 Jan 2023",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "12 Dec 2022",
+  "Soft Machining": "27 Dec 2022",
+  "Heat treatment": "3 Jan 2023",
+  "QG4": "4 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT05A2",
+  "Qty": 950,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "4 Jan 2023",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "12 Dec 2022",
+  "Soft Machining": "27 Dec 2022",
+  "Heat treatment": "3 Jan 2023",
+  "QG4": "4 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "PT05B1",
+  "Qty": 1900,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "4 Jan 2023",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "12 Dec 2022",
+  "Soft Machining": "27 Dec 2022",
+  "Heat treatment": "3 Jan 2023",
+  "QG4": "4 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "VT03A1",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with MM28A1"
+ },
+ null,
+ {
+  "Model": "VT03B1",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with MM28B1"
+ },
+ null,
+ {
+  "Model": "VT03B2",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "27 Dec 2022",
+  "# of days": 26,
+  "% complete": 0,
+  "Forging\n(QG-1)": "7 Dec 2022",
+  "Soft Machining": "19 Dec 2022",
+  "Heat treatment": "26 Dec 2022",
+  "QG4": "27 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with MM28B1\n2000 no's"
+ },
+ null,
+ {
+  "Model": "VT03D1",
+  "Qty": 3000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "27 Dec 2022",
+  "# of days": 26,
+  "% complete": 0,
+  "Forging\n(QG-1)": "7 Dec 2022",
+  "Soft Machining": "19 Dec 2022",
+  "Heat treatment": "26 Dec 2022",
+  "QG4": "27 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "VT03C2",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "28 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "8 Dec 2022",
+  "Soft Machining": "20 Dec 2022",
+  "Heat treatment": "27 Dec 2022",
+  "QG4": "28 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "VT03D2",
+  "Qty": 1500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "01-12-2022",
+  "End date": "28 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "8 Dec 2022",
+  "Soft Machining": "20 Dec 2022",
+  "Heat treatment": "27 Dec 2022",
+  "QG4": "28 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "01-12-2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "RS01A1",
+  "Qty": 150,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "RS01B1",
+  "Qty": 150,
+  "Priority": "M",
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "TM02A8",
+  "Qty": 400,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "29 Oct 2022",
+  "End date": "18 Dec 2022",
+  "# of days": 50,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "28 Nov 2022",
+  "Soft Machining": "8 Dec 2022",
+  "Heat treatment": "15 Dec 2022",
+  "QG4": "18 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "29 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 57,
+  "Forging\n(QG-1)": "2 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "591 no's rejected due to root radius NG"
+ },
+ null,
+ {
+  "Model": "TM02A8",
+  "Qty": 400,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "29 Oct 2022",
+  "End date": "22 Nov 2022",
+  "# of days": 24,
+  "% complete": 0,
+  "Forging\n(QG-1)": "16 Nov 2022",
+  "Soft Machining": "18 Nov 2022",
+  "Heat treatment": "20 Nov 2022",
+  "QG4": "22 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "29 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 57,
+  "Forging\n(QG-1)": "18 Nov 2022",
+  "Soft Machining": "23 Nov 2022",
+  "Heat treatment": "24 Nov 2022",
+  "QG4": "5 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "552 no's QG-1 completed on 18 nov 22",
+  "Soft Machining": "300 no's received on 22 nov 22\n249 no's received on 23 nov 22",
+  "Heat treatment": "549 no's",
+  "QG4": "536 no's"
+ },
+ null,
+ {
+  "Model": "TM02B8",
+  "Qty": 800,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "29 Oct 2022",
+  "End date": "22 Nov 2022",
+  "# of days": 24,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "16 Nov 2022",
+  "Soft Machining": "18 Nov 2022",
+  "Heat treatment": "20 Nov 2022",
+  "QG4": "22 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "29 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 57,
+  "Forging\n(QG-1)": "2 Nov 2022",
+  "Soft Machining": "5 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "1254 no's",
+  "Soft Machining": "for 9 point on 10 nov 22 "
+ },
+ null,
+ {
+  "Model": "DI12A9",
+  "Qty": 50,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 19,
+  "% complete": 0,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "17 Dec 2022",
+  "Heat treatment": "19 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "DI12AA",
+  "Qty": 50,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 19,
+  "% complete": 0,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "17 Dec 2022",
+  "Heat treatment": "19 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MG01U1",
+  "Qty": 200,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "25 Nov 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "30 Nov 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "22 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "25 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 30
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MG01V1",
+  "Qty": 200,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "25 Nov 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "30 Nov 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "22 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "25 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 30
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM16A4",
+  "Qty": 250,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Aug 2022",
+  "End date": "29 Nov 2022",
+  "# of days": 93,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "12 Sep 2022",
+  "Soft Machining": "7 Oct 2022",
+  "Heat treatment": "14 Oct 2022",
+  "QG4": "21 Oct 2022"
+ },
+ {
+  "Status": "Re-Schedule",
+  "Start date": "28 Aug 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 119,
+  "Soft Machining": "15 Nov 2022",
+  "Heat treatment": "22 Nov 2022",
+  "QG4": "29 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Forging\n(QG-1)": "14 Sep 2022",
+  "Soft Machining": "10 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "831 no's",
+  "Soft Machining": "250 parts by 10 nov\nothers by 15nov\n375 no's recevied on 9th nov 22\n164 no's received on 23 nov 22\n236 no's received on 30 nov 22",
+  "Heat treatment": "0.5mm M.D oversize.\nSoft specs to be revised for next lot\n375 no's requenching completed on 19-nov-22\n9 point trial on 24 nov 22",
+  "QG4": "93 no's FGS on 21 nov 22\n80 no's FGS on 23 nov 22\n80 no's FGS on 25 nov 22"
+ },
+ null,
+ {
+  "Model": "BM01A1",
+  "Qty": 261,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Sep 2022",
+  "End date": "30 Nov 2022",
+  "# of days": 89,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "22 Sep 2022",
+  "Soft Machining": "21 Nov 2022",
+  "Heat treatment": "28 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Sep 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 114
+ },
+ {
+  "Status": "Remark",
+  "Heat treatment": "9 point on 26 nov 22"
+ },
+ null,
+ {
+  "Model": "BM01B1",
+  "Qty": 261,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "2 Sep 2022",
+  "End date": "30 Nov 2022",
+  "# of days": 89,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "22 Sep 2022",
+  "Soft Machining": "21 Nov 2022",
+  "Heat treatment": "28 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "2 Sep 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 114,
+  "Soft Machining": "3 Dec 2022",
+  "Heat treatment": "5 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Soft Machining": "342 no's",
+  "Heat treatment": "189 no's"
+ },
+ null,
+ {
+  "Model": "AM20X1",
+  "Qty": 257,
+  "Priority": 257,
+  "Status": "Plan"
+ },
+ {
+  "Status": "Actual",
+  "QG4": "5 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "radius template gauge"
+ },
+ null,
+ {
+  "Model": "SI09A9",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Nov 2022",
+  "End date": "28 Dec 2022",
+  "# of days": 41,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "24 Nov 2022",
+  "Soft Machining": "14 Dec 2022",
+  "Heat treatment": "21 Dec 2022",
+  "QG4": "28 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 38
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "1000 no's forgings available\ncoining pending"
+ },
+ null,
+ {
+  "Model": "MM02A4",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "1 Dec 2022",
+  "End date": "29 Dec 2022",
+  "# of days": 28,
+  "% complete": 0,
+  "Forging\n(QG-1)": "6 Dec 2022",
+  "Soft Machining": "21 Dec 2022",
+  "Heat treatment": "26 Dec 2022",
+  "QG4": "29 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "1 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 24
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "BT01A1",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "26 Nov 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 24,
+  "% complete": 0,
+  "Forging\n(QG-1)": "6 Dec 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "18 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "26 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 29,
+  "Forging\n(QG-1)": "2 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "Parts are getting rusted",
+  "Soft Machining": "Face plate"
+ },
+ null,
+ {
+  "Model": "BT01B1",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "26 Nov 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 24,
+  "% complete": 0,
+  "Forging\n(QG-1)": "6 Dec 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "18 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "26 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 29,
+  "Forging\n(QG-1)": "2 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "2402 no's QG-1 "
+ },
+ null,
+ {
+  "Model": "BT01A1",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "9 Dec 2022",
+  "End date": "30 Dec 2022",
+  "# of days": 21,
+  "% complete": 0,
+  "Forging\n(QG-1)": "14 Dec 2022",
+  "Soft Machining": "27 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "30 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 16
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "BT01B1",
+  "Qty": 1000,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "9 Dec 2022",
+  "End date": "30 Dec 2022",
+  "# of days": 21,
+  "% complete": 0,
+  "Forging\n(QG-1)": "14 Dec 2022",
+  "Soft Machining": "27 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "30 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 16
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "HM04A2",
+  "Qty": 150,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Nov 2022",
+  "End date": "26 Dec 2022",
+  "# of days": 28,
+  "% complete": 0,
+  "Forging\n(QG-1)": "6 Dec 2022",
+  "Soft Machining": "16 Dec 2022",
+  "Heat treatment": "23 Dec 2022",
+  "QG4": "26 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "28 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 27,
+  "Forging\n(QG-1)": "7 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with TF01A2"
+ },
+ null,
+ {
+  "Model": "DI14A1",
+  "Qty": 250,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Nov 2022",
+  "End date": "11 Jan 2023",
+  "# of days": 44,
+  "% complete": 0,
+  "Forging\n(QG-1)": "7 Dec 2022",
+  "Soft Machining": "1 Jan 2023",
+  "Heat treatment": "8 Jan 2023",
+  "QG4": "11 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "28 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 27
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "SI09B3",
+  "Qty": 25,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "14 Oct 2022",
+  "End date": "18 Nov 2022",
+  "# of days": 35,
+  "% complete": 1,
+  "Forging\n(QG-1)": "23 Oct 2022",
+  "Soft Machining": "8 Nov 2022",
+  "Heat treatment": "13 Nov 2022",
+  "QG4": "18 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "14 Oct 2022",
+  "End date": "11 Nov 2022",
+  "# of days": 28,
+  "Forging\n(QG-1)": "29 Oct 2022",
+  "Soft Machining": "7 Nov 2022",
+  "Heat treatment": "8 Nov 2022",
+  "QG4": "11 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "QG4": "rejected due to topography 35 microns"
+ },
+ null,
+ {
+  "Model": "SI09B3",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "11 Nov 2022",
+  "End date": "15 Dec 2022",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "21 Nov 2022",
+  "Soft Machining": "1 Dec 2022",
+  "Heat treatment": "8 Dec 2022",
+  "QG4": "15 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "11 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 44,
+  "Forging\n(QG-1)": "24 Nov 2022",
+  "Soft Machining": "1 Dec 2022",
+  "Heat treatment": "8 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "232 no's"
+ },
+ null,
+ {
+  "Model": "SI03B1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "18 Nov 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 32,
+  "% complete": 0,
+  "Forging\n(QG-1)": "30 Nov 2022",
+  "Soft Machining": "15 Dec 2022",
+  "Heat treatment": "18 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "18 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 37,
+  "Forging\n(QG-1)": "8 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "90 no's"
+ },
+ null,
+ {
+  "Model": "TS03A1",
+  "Qty": 150,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Oct 2022",
+  "End date": "21 Nov 2022",
+  "# of days": 35,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "26 Oct 2022",
+  "Soft Machining": "11 Nov 2022",
+  "Heat treatment": "16 Nov 2022",
+  "QG4": "21 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 69,
+  "Forging\n(QG-1)": "21 Oct 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "162 no's\nSAE 4320H",
+  "Soft Machining": "broach revise",
+  "Heat treatment": "9 point study on 7 nov 22"
+ },
+ null,
+ {
+  "Model": "TS03B1",
+  "Qty": 150,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Oct 2022",
+  "End date": "21 Nov 2022",
+  "# of days": 35,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "26 Oct 2022",
+  "Soft Machining": "11 Nov 2022",
+  "Heat treatment": "16 Nov 2022",
+  "QG4": "21 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 69,
+  "Forging\n(QG-1)": "21 Oct 2022",
+  "Soft Machining": "7 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "130 no's\nSAE 4320H",
+  "Soft Machining": "Requirement from Manesar given late"
+ },
+ null,
+ {
+  "Model": "TS05A1",
+  "Qty": 650,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "9 Nov 2022",
+  "End date": "6 Dec 2022",
+  "# of days": 27,
+  "% complete": 0,
+  "Forging\n(QG-1)": "17 Nov 2022",
+  "Soft Machining": "27 Nov 2022",
+  "Heat treatment": "2 Dec 2022",
+  "QG4": "6 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 46
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "411 no's QG-1 on ",
+  "Soft Machining": "extra new tooling requirement given on 21 nov 22.\nOSP information shared on 21-nov 22"
+ },
+ null,
+ {
+  "Model": "TS05A2",
+  "Qty": 650,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "9 Nov 2022",
+  "End date": "8 Dec 2022",
+  "# of days": 29,
+  "% complete": 0,
+  "Forging\n(QG-1)": "19 Nov 2022",
+  "Soft Machining": "29 Nov 2022",
+  "Heat treatment": "4 Dec 2022",
+  "QG4": "8 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 46
+ },
+ {
+  "Status": "Remark",
+  "Soft Machining": "extra new tooling requirement given on 21 nov 22.\nOSP information shared on 21-nov 22"
+ },
+ null,
+ {
+  "Model": "TS05B1",
+  "Qty": 1500,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "9 Nov 2022",
+  "End date": "4 Dec 2022",
+  "# of days": 25,
+  "% complete": 0,
+  "Forging\n(QG-1)": "15 Nov 2022",
+  "Soft Machining": "25 Nov 2022",
+  "Heat treatment": "30 Nov 2022",
+  "QG4": "4 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 46,
+  "Forging\n(QG-1)": "14 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "999 no's",
+  "Soft Machining": "extra new tooling requirement given on 21 nov 22.\nOSP information shared on 21-nov 22"
+ },
+ null,
+ {
+  "Model": "TS05X1",
+  "Qty": 650,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "9 Nov 2022",
+  "End date": "13 Dec 2022",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "24 Nov 2022",
+  "Soft Machining": "4 Dec 2022",
+  "Heat treatment": "9 Dec 2022",
+  "QG4": "13 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "9 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 46
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "radius template gauge"
+ },
+ null,
+ {
+  "Model": "IT04A1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "21 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "1 Dec 2022",
+  "Soft Machining": "21 Dec 2022",
+  "Heat treatment": "23 Dec 2022",
+  "QG4": "25 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "21 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 34,
+  "Forging\n(QG-1)": "8 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "248 no's"
+ },
+ null,
+ {
+  "Model": "JL02S1",
+  "Qty": 300,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "30 Nov 2022",
+  "End date": "3 Jan 2023",
+  "# of days": 34,
+  "% complete": 0,
+  "Forging\n(QG-1)": "14 Dec 2022",
+  "Soft Machining": "24 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "3 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "30 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 25
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "JL01S1",
+  "Qty": 600,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "30 Nov 2022",
+  "End date": "30 Dec 2022",
+  "# of days": 30,
+  "% complete": 0,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "20 Dec 2022",
+  "Heat treatment": "25 Dec 2022",
+  "QG4": "30 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "30 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 25
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "raw material by 8-dec"
+ },
+ null,
+ {
+  "Model": "AA21E1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "25 May 2022",
+  "End date": "30 Nov 2022",
+  "# of days": 189,
+  "% complete": 0,
+  "Forging\n(QG-1)": "18 Nov 2022",
+  "Soft Machining": "25 Nov 2022",
+  "Heat treatment": "28 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "25 May 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 214
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "116 no's Rough forging completed on 3 nov 22\nTurning for ring\n\n New Heater tooling and trial pending"
+ },
+ null,
+ {
+  "Model": "AA21G1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "25 May 2022",
+  "End date": "30 Nov 2022",
+  "# of days": 189,
+  "% complete": 0,
+  "Forging\n(QG-1)": "18 Nov 2022",
+  "Soft Machining": "25 Nov 2022",
+  "Heat treatment": "28 Nov 2022",
+  "QG4": "30 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "25 May 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 214
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "New Heater tooling and trial pending"
+ },
+ null,
+ {
+  "Model": "IT08C4",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Nov 2022",
+  "End date": "5 Jan 2023",
+  "# of days": 49,
+  "% complete": 0,
+  "Forging\n(QG-1)": "27 Nov 2022",
+  "Soft Machining": "22 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "5 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 38
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "forgings common with IT08C2"
+ },
+ null,
+ {
+  "Model": "IT08D4",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Nov 2022",
+  "End date": "5 Jan 2023",
+  "# of days": 49,
+  "% complete": 0,
+  "Forging\n(QG-1)": "27 Nov 2022",
+  "Soft Machining": "22 Dec 2022",
+  "Heat treatment": "29 Dec 2022",
+  "QG4": "5 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 38
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "forgings common with IT08D2"
+ },
+ null,
+ {
+  "Model": "NH01A1",
+  "Qty": 5,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "11 Nov 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 39,
+  "% complete": 0,
+  "Forging\n(QG-1)": "26 Nov 2022",
+  "Soft Machining": "6 Dec 2022",
+  "Heat treatment": "13 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "11 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 44,
+  "Forging\n(QG-1)": "29 Nov 2022",
+  "Soft Machining": "7 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "forgings common with NH01A1",
+  "Soft Machining": "10 no's"
+ },
+ null,
+ {
+  "Model": "TM16R1",
+  "Qty": 100,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "11 Nov 2022",
+  "End date": "9 Jan 2023",
+  "# of days": 59,
+  "% complete": 0,
+  "Forging\n(QG-1)": "26 Nov 2022",
+  "Soft Machining": "26 Dec 2022",
+  "Heat treatment": "2 Jan 2023",
+  "QG4": "9 Jan 2023"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "11 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 44,
+  "Forging\n(QG-1)": "4 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "99 no's QG-1",
+  "Soft Machining": "P.C.D clamping fixture by 17 dec 22"
+ },
+ null,
+ {
+  "Model": "TT02A2\n Requirement received date - 2 nov 22",
+  "Qty": 950,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Nov 2022",
+  "End date": "27 Dec 2022",
+  "# of days": 29,
+  "% complete": 0,
+  "Forging\n(QG-1)": "10 Dec 2022",
+  "Soft Machining": "23 Dec 2022",
+  "Heat treatment": "26 Dec 2022",
+  "QG4": "27 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "28 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 27,
+  "Forging\n(QG-1)": "9 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "Raw material by 3-Dec-22\n1362 no's QG-1",
+  "Soft Machining": "Slot cutting"
+ },
+ null,
+ {
+  "Model": "DI11B2",
+  "Qty": 40,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Aug 2022",
+  "End date": "10 Nov 2022",
+  "# of days": 74,
+  "% complete": 0.5,
+  "Forging\n(QG-1)": "7 Sep 2022",
+  "Soft Machining": "22 Sep 2022",
+  "Heat treatment": "27 Sep 2022",
+  "QG4": "30 Sep 2022"
+ },
+ {
+  "Status": "Re-Schedule",
+  "Start date": "28 Aug 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 119,
+  "Heat treatment": "7 Nov 2022",
+  "QG4": "10 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Forging\n(QG-1)": "22 Oct 2022",
+  "Soft Machining": "31 Oct 2022",
+  "Heat treatment": "23 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with DI11B1\nForgings delay",
+  "Heat treatment": "120 no's",
+  "QG4": "109 no's\nIdentification mark"
+ },
+ null,
+ {
+  "Model": "DI11A3",
+  "Qty": 80,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "28 Aug 2022",
+  "End date": "20 Nov 2022",
+  "# of days": 84,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "7 Sep 2022",
+  "Soft Machining": "22 Sep 2022",
+  "Heat treatment": "27 Sep 2022",
+  "QG4": "30 Sep 2022"
+ },
+ {
+  "Status": "Re-Schedule",
+  "Start date": "28 Aug 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 119,
+  "Soft Machining": "10 Nov 2022",
+  "Heat treatment": "17 Nov 2022",
+  "QG4": "20 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Forging\n(QG-1)": "25 Oct 2022",
+  "Soft Machining": "8 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with DI11B1\nForgings delay",
+  "Heat treatment": "broach revise"
+ },
+ null,
+ {
+  "Model": "DI21X1",
+  "Qty": 3,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "10 Dec 2022",
+  "End date": "20 Dec 2022",
+  "# of days": 10,
+  "Forging\n(QG-1)": "11 Dec 2022",
+  "Soft Machining": "16 Dec 2022",
+  "Heat treatment": "18 Dec 2022",
+  "QG4": "20 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "10 Dec 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 15
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "0011A1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Oct 2022",
+  "End date": "21 Nov 2022",
+  "# of days": 35,
+  "% complete": 0,
+  "Forging\n(QG-1)": "26 Oct 2022",
+  "Soft Machining": "11 Nov 2022",
+  "Heat treatment": "16 Nov 2022",
+  "QG4": "21 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Oct 2022",
+  "End date": "25 Dec 2022"
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "0011B1",
+  "Qty": 50,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "17 Oct 2022",
+  "End date": "21 Nov 2022",
+  "# of days": 35,
+  "% complete": 0,
+  "Forging\n(QG-1)": "26 Oct 2022",
+  "Soft Machining": "11 Nov 2022",
+  "Heat treatment": "16 Nov 2022",
+  "QG4": "21 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "17 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 69
+ },
+ {
+  "Status": "Remark"
+ },
+ null,
+ {
+  "Model": "MM03A2",
+  "Qty": 20,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "27 Oct 2022",
+  "End date": "11 Dec 2022",
+  "# of days": 45,
+  "% complete": 0,
+  "Forging\n(QG-1)": "7 Nov 2022",
+  "Soft Machining": "27 Nov 2022",
+  "Heat treatment": "4 Dec 2022",
+  "QG4": "11 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "27 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 59,
+  "Forging\n(QG-1)": "8 Nov 2022",
+  "Soft Machining": "20 Nov 2022",
+  "Heat treatment": "4 Dec 2022",
+  "QG4": "6 Dec 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "127 no's on 8 nov 22",
+  "Heat treatment": "9 no's submitted on 21 nov 22\nreceived report on 24 nov 22"
+ },
+ null,
+ {
+  "Model": "LI18A1",
+  "Qty": 250,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "4 Nov 2022",
+  "End date": "28 Dec 2022",
+  "# of days": 54,
+  "% complete": 0,
+  "Forging\n(QG-1)": "24 Nov 2022",
+  "Soft Machining": "14 Dec 2022",
+  "Heat treatment": "21 Dec 2022",
+  "QG4": "28 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "4 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 51
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "Rm BY Monday 21-11-22\nDie Under manufacturing",
+  "Soft Machining": "Finger P.O issue"
+ },
+ null,
+ {
+  "Model": "LI18B1",
+  "Qty": 500,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "4 Nov 2022",
+  "End date": "28 Dec 2022",
+  "# of days": 54,
+  "% complete": 0,
+  "Forging\n(QG-1)": "24 Nov 2022",
+  "Soft Machining": "14 Dec 2022",
+  "Heat treatment": "21 Dec 2022",
+  "QG4": "28 Dec 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "4 Nov 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 51
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "Die Under manufacturing"
+ },
+ null,
+ {
+  "Model": "VF02A1\n recd P.O only for 20 no's",
+  "Qty": 105,
+  "Priority": "M",
+  "Status": "Plan",
+  "Start date": "21 Oct 2022",
+  "End date": "29 Nov 2022",
+  "# of days": 39,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "28 Oct 2022",
+  "Soft Machining": "17 Nov 2022",
+  "Heat treatment": "24 Nov 2022",
+  "QG4": "29 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "21 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 65,
+  "Forging\n(QG-1)": "3 Nov 2022",
+  "Soft Machining": "21 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with TS01A1",
+  "Soft Machining": "broach by 8 nov\n35 no's"
+ },
+ null,
+ {
+  "Model": "JL02A1",
+  "Qty": 200,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "27 Oct 2022",
+  "End date": "18 Nov 2022",
+  "# of days": 22,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "3 Nov 2022",
+  "Soft Machining": "10 Nov 2022",
+  "Heat treatment": "18 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "27 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 59,
+  "Forging\n(QG-1)": "3 Nov 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with TS01A1",
+  "Heat treatment": "Heat treatment at manesar"
+ },
+ null,
+ {
+  "Model": "JL02B1",
+  "Qty": 400,
+  "Priority": "H",
+  "Status": "Plan",
+  "Start date": "27 Oct 2022",
+  "End date": "18 Nov 2022",
+  "# of days": 22,
+  "% complete": 0.25,
+  "Forging\n(QG-1)": "3 Nov 2022",
+  "Soft Machining": "10 Nov 2022",
+  "Heat treatment": "18 Nov 2022"
+ },
+ {
+  "Status": "Actual",
+  "Start date": "27 Oct 2022",
+  "End date": "25 Dec 2022",
+  "# of days": 59,
+  "Forging\n(QG-1)": "31 Oct 2022"
+ },
+ {
+  "Status": "Remark",
+  "Forging\n(QG-1)": "common with TS01B1",
+  "Heat treatment": "Heat treatment at manesar"
+ }
+]
+}
