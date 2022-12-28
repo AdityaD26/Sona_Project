@@ -1,3 +1,4 @@
+
 <template>
   <v-data-table :headers="headers" :items="desserts" :search="search" class="elevation-1 ">
     <template v-slot:top>
@@ -287,11 +288,10 @@
         mdi-delete
       </v-icon>
     </template>
-    <template v-slot:no-data>
-      <v-btn color="primary" @click="initialize">
-        Reset
-      </v-btn>
-    </template>
+
+    
+
+
   </v-data-table>
 </template>
 
@@ -301,9 +301,7 @@
 export default {
 
   data: () => ({
-
-    counter_p: 0,
-
+    
     search: '',
     status_p: ['Plan'],
     status_a: ['Actual'],
@@ -313,7 +311,7 @@ export default {
     dialog: false,
     dialogDelete: false,
     headers: [
-      { text: 'Model', value: 'model', sortable: false, borderLeft: 'thick solid hsl(0, 100%, 50%)' },
+      { text: 'Model', value: 'model', sortable: false, },
       { text: 'Part No.', value: 'part_number', sortable: false },
       { text: 'Project Type', value: 'project_type', sortable: false },
       { text: 'Quantity', value: 'quantity', sortable: false },
@@ -324,7 +322,7 @@ export default {
       { text: 'Number of Days', value: 'days', sortable: false },
       { text: '%Completed', value: 'completed', sortable: false },
       { text: 'Kick off', value: 'kicks', sortable: false },
-      { text: 'Drawing Approval From Customer', value: 'drawing', sortable: false },
+      { text: 'Drawing Approval From Customer', value: 'drawing', sortable: false, },
       { text: 'Steel Master Release', value: 'steel', sortable: false },
       { text: 'Die Design & Drawing Release', value: 'die', sortable: false },
       { text: 'Jigs Design & drawing release', value: 'jigs', sortable: false },
@@ -408,9 +406,6 @@ export default {
       heat: 0,
       qg: 0,
 
-
-
-
     },
   }),
 
@@ -439,160 +434,8 @@ export default {
 
       //  this.desserts = table.data
 
-
-      this.desserts = [
-
-        {
-
-          model: 'AM13A3',
-          part_number: '',
-          project_type: 'A',
-          quantity: 1500,
-          priority: 'M',
-          status_p: 'plan',
-          start_p: '',
-          end_p: '',
-          days: 0,
-          completed: 0,
-          kicks: 0,
-          drawing: '2022-12-22',
-          steel: '2022-12-26',
-          die: 0,
-
-          broach: 0,
-          gauges: 0,
-          forging: 0,
-          soft: 0,
-          heat: 0,
-          qg: 0,
-
-        },
-
-        {
-          model: '',
-          part_number: '',
-          project_type: '',
-          quantity: '',
-          priority: '',
-          status_p: 'Actual',
-          start_p: '',
-          end_p: '',
-          days: 0,
-          completed: 0,
-          kicks: 0,
-          drawing: '',
-          steel: '',
-          die: 0,
-          broach: 0,
-          gauges: 0,
-          forging: '',
-          soft: '',
-          heat: '',
-          qg: '',
-
-        },
-
-
-        {
-          model: 'AM16A3',
-          part_number: '',
-          project_type: 'B',
-          quantity: 209,
-          priority: 'M',
-          status_p: 'plan',
-          start_p: '2022-10-30',
-          end_p: '2022-11-30',
-          days: 47,
-          completed: 75,
-          kicks: 0,
-          drawing: '',
-          steel: '',
-          die: 0,
-          broach: 0,
-          gauges: 0,
-          forging: '23/10/22',
-          soft: '2022-11-08',
-          heat: '2022-11-24',
-          qg: '2022-11-30',
-
-        },
-
-        {
-          model: '',
-          part_number: '',
-          project_type: '',
-          quantity: '',
-          priority: '',
-          status_p: 'Actual',
-          start_p: '',
-          end_p: '',
-          days: 0,
-          completed: 0,
-          kicks: 0,
-          drawing: '',
-          steel: '',
-          die: 0,
-          broach: 0,
-          gauges: 0,
-          forging: '',
-          soft: '',
-          heat: '',
-          qg: '',
-
-        },
-
-        {
-          model: 'AM05L1',
-          part_number: '',
-          project_type: 'A',
-          quantity: 500,
-          priority: 'M',
-          status_p: 'plan',
-          start_p: '2022-12-02',
-          end_p: '2023-01-19',
-          days: 29,
-          completed: 0,
-          kicks: 0,
-          drawing: '',
-          steel: '',
-          die: 0,
-          broach: 0,
-          gauges: 0,
-          forging: '',
-          soft: '',
-          heat: '',
-          qg: '',
-
-        },
-
-        {
-          model: '',
-          part_number: '',
-          project_type: '',
-          quantity: '',
-          priority: '',
-          status_p: 'Actual',
-          start_p: '',
-          end_p: '',
-          days: 0,
-          completed: 0,
-          kicks: 0,
-          drawing: '',
-          steel: '',
-          die: 0,
-          broach: 0,
-          gauges: 0,
-          forging: '',
-          soft: '',
-          heat: '',
-          qg: '',
-
-        },
-
-
-
-
-      ]
+      // Hard Coded Data 
+      this.desserts = []
     },
 
     editItem(item) {
@@ -604,11 +447,16 @@ export default {
     deleteItem(item) {
       this.editedIndex = this.desserts.indexOf(item)
       this.editedItem = Object.assign({}, item)
+      this.editedIndex = this.desserts.indexOf(item)
+      this.editedItem = Object.assign({}, item)
+
       this.dialogDelete = true
     },
 
     deleteItemConfirm() {
       this.desserts.splice(this.editedIndex, 1)
+      this.desserts.splice(this.editedIndex, 1)
+
       this.closeDelete()
     },
 
@@ -635,7 +483,6 @@ export default {
       } else {
         this.desserts.push(this.editedItem)
         this.desserts.push(this.editedItem2)
-
       }
       this.close()
     },
