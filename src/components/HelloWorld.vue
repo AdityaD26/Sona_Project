@@ -1,51 +1,286 @@
 
 <template>
-  <v-data-table v-model="selected1" :headers="headers" :items="desserts" :single-select="singleSelect1" item-key="id"
-      show-select class="elevation-1" >
-    <!-- <template v-slot:item="{ item }">
+  <v-data-table  :headers="headers" :items="desserts"
+      class="elevation-1 text-center " >
+    <template v-slot:item="{ item }">
+      
+
       <tr>
-        <td class="custom">{{ item.model }}</td>
-        <td class="custom">{{ item.part_number }}</td>
-        <td class="custom">{{ item.project_type }}</td>
-        <td class="custom">{{ item.quantity }}</td>
-        <td class="custom">{{ item.priority }}</td>
-        <td class="custom">{{ item.status_p }}</td>
-        <td class="custom">{{ item.start_p }}</td>
-        <td class="custom">{{ item.end_p }}</td>
-        <td class="custom">{{ item.days }}</td>
-        <td class="custom">{{ item.completed }}</td>
-        <td class="custom">{{ item.kicks }}</td>
-        <td class="custom">{{ item.drawing }}</td>
-        <td class="custom">{{ item.steel }}</td>
-        <td class="custom">{{ item.die }}</td>
-        <td class="custom">{{ item.jigs }}</td>
-        <td class="custom">{{ item.broach }}</td>
-        <td class="custom">{{ item.gauges }}</td>
-        <td class="custom">{{ item.forging }}</td>
-        <td class="custom">{{ item.soft }}</td>
-        <td class="custom">{{ item.heat }}</td>
-        <td class="custom">{{ item.qg }}</td>
+
+        
+        
+       
+        <td class="bAll" >
+
+          <v-checkbox
+          v-model="selected1"
+          :single-select="singleSelected1"
+          show-select
+     
+    ></v-checkbox>
+
+        </td>
+        <td class="bAll" >{{ item.model }}</td>
+        <td class="bAll" >{{ item.part_number }}</td>
+        <td class="bAll" >{{ item.project_type }}</td>
+        <td class="bAll" >{{ item.quantity }}</td>
+        <td class="bAll" >{{ item.priority }}</td>
+        <!-- STATUS  -->
+        <td class="bAll" >
+      <tr>
+        <td class="bBottom layout" >{{ item.status_p }}</td>
       </tr>
-    </template> -->
+      <tr>
+        <td class="bBottom layout " >Actual</td>
+      </tr>
+      <tr>
+        <td class="layout" >Remark</td>
+      </tr>
+      </td>
+
+      <!-- START DATE  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.start_p }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout " >2023-01-19</td>
+        </tr>
+        <tr>
+          <td class="layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- END DATE  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.end_p }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >2023-01-26</td>
+        </tr>
+        <tr>
+          <td class="layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- NUMBER OF DAYS  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.days }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- % COMPLETED  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.completed }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- KICK OFF -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.kicks }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- DRAWING  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.drawing }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- STEEL MASTER  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.steel }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- DIE DESIGN  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.die }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- JIGS DESIGN  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.jigs }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- BROACH  -->
+
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.broach }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- GUAGES  -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.gauges }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- FORGING  -->
+
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.forging }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- SOFT MACHINE  -->
+
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.soft }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- HEAT TREATMENT  -->
+
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.heat }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+      <!-- QG4 -->
+
+      <td class="bAll" >
+        <tr>
+          <td class="bBottom layout" >{{ item.qg }}</td>
+        </tr>
+        <tr>
+          <td class="bBottom layout" >--</td>
+        </tr>
+        <tr>
+          <td class=" layout" >--</td>
+        </tr>
+      </td>
+
+
+
+      <!-- <td class="text-center">
+<v-icon small class="mr-2" @click="editItem(item)">
+  mdi-pencil
+</v-icon>
+</td> -->
+
+      </tr>
+    </template>
     <template v-slot:top>
       <v-toolbar flat>
         <v-toolbar-title>NPD PROJECT STATUS SHEET </v-toolbar-title>
         <v-divider class="mx-4" inset vertical></v-divider>
-        <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
+        <!-- <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field> -->
         <v-spacer></v-spacer>
-        
+
         <v-dialog v-model="dialog">
           <template v-slot:activator="{ on, attrs }">
             <v-btn color="primary" dark class="mb-2" v-bind="attrs" v-on="on">
               ADD DATA
             </v-btn>
-            <v-btn color="primary" dark class="mb-2 mr-2" v-bind="attrs" v-on="on" @click="edit(selected1)" >
-              <v-icon small class="mr-1" >mdi-pencil</v-icon> EDIT DATA
+            <v-btn color="primary" dark class="mb-2 mr-2" @click="edit(selected1)">
+              <v-icon small class="mr-1">mdi-pencil</v-icon> EDIT DATA
             </v-btn>
           </template>
           <v-card>
-            <v-card-title>
-              <span class="text-h5">{{ formTitle }}</span>
+            <v-card-title class="text-h5 grey lighten-2">
+              ADD DATA HERE
             </v-card-title>
 
             <v-card-text>
@@ -288,7 +523,7 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="blue darken-1" text @click="dialog=false">
+              <v-btn color="blue darken-1" text @click="dialog = false">
                 Cancel
               </v-btn>
               <v-btn color="blue darken-1" text @click="save()">
@@ -301,12 +536,11 @@
         <!-- dialogue 2  -->
 
         <v-dialog v-model="dialog1">
-          
-          <v-card>
-            <v-card-title>
-              <span class="text-h5">{{ formTitle }}</span>
-            </v-card-title>
 
+          <v-card>
+            <v-card-title class="text-h5 grey lighten-2">
+              Update DATA HERE
+            </v-card-title>
             <v-card-text>
               <v-container>
                 <v-row>
@@ -547,7 +781,7 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="blue darken-1" text @click="dialog=false">
+              <v-btn color="blue darken-1" text @click="dialog1 = false">
                 Cancel
               </v-btn>
               <v-btn color="blue darken-1" text @click="update()">
@@ -556,27 +790,10 @@
             </v-card-actions>
           </v-card>
         </v-dialog>
-        <!-- <v-dialog v-model="dialogDelete" max-width="500px">
-          <v-card>
-            <v-card-title class="text-h5">Are you sure you want to delete this item?</v-card-title>
-            <v-card-actions>
-              <v-spacer></v-spacer>
-              <v-btn color="blue darken-1" text @click="closeDelete">Cancel</v-btn>
-              <v-btn color="blue darken-1" text @click="deleteItemConfirm">OK</v-btn>
-              <v-spacer></v-spacer>
-            </v-card-actions>
-          </v-card>
-        </v-dialog> -->
+
       </v-toolbar>
     </template>
-    <!-- <template v-slot:[`item.actions`]="{ item }">
-      <v-icon small class="mr-2" @click="editItem(item)">
-        mdi-pencil
-      </v-icon>
-      <v-icon small @click="deleteItem(item)" style="visibility: visible;" id="A">
-        mdi-delete
-      </v-icon>
-    </template> -->
+
 
 
 
@@ -597,12 +814,14 @@ export default {
     singleSelect1: true,
 
     search: '',
-    status_p: ['Plan', 'Actual'],
+    status_p: ['Plan'],
     status_a: ['Actual'],
     status_r: ['Remark'],
-    priority_type: ['H', 'M', 'S'],
+    priority_type: ['H', 'M', 'L'],
     type: ['A', 'B', 'C', 'D'],
     dialog: false,
+    dialog1: false,
+
     dialogDelete: false,
 
     desserts: [],
@@ -662,8 +881,8 @@ export default {
       project_type: '',
       quantity: '',
       priority: '',
-      status_p: '',
-      start_p: 'Actual',
+      status_p: 'Actual',
+      start_p: '',
       end_p: '',
       days: '',
       completed: '',
@@ -701,18 +920,16 @@ export default {
       soft: '',
       heat: '',
       qg: '',
-      },
+    },
 
   }),
 
   computed: {
-    formTitle() {
-      return this.editedIndex === -1 ? 'ADD DATA' : 'UPDATE DATA '
-    },
 
     headers() {
       return [
-        { text: 'Model', value: 'model', sortable: false, class: "table_border", width: "40%" },
+        { text: 'Select', value: '', sortable: false, class: "table_border text-center ", },
+        { text: 'Model', value: 'model', sortable: false, class: "table_border text-center ", },
         { text: 'Part No.', value: 'part_number', sortable: false, class: "table_border" },
         { text: 'Project Type', value: 'project_type', sortable: false, class: "table_border" },
         { text: 'Quantity', value: 'quantity', sortable: false, class: "table_border" },
@@ -754,6 +971,7 @@ export default {
         .get("http://localhost:3000/database1")
         .then((resp) => {
           this.desserts = resp.data;
+
 
           console.log("this.desserts : ", this.desserts)
         })
@@ -801,10 +1019,16 @@ export default {
         });
 
 
-      // let r = JSON.stringify(this.desserts)
-      // let parsed = JSON.parse(r);
-      // console.log("Parsed : ", parsed)
-
+      // axios.post("http://localhost:3000/database1", this.editedItem)
+      //   .then((result) => {
+      //     console.log("Result : ", result);
+      //     this.getapicall2();
+      //     // this.postdata = {}
+      //     console.log("data inserted : ", this.desserts);
+      //   })
+      //   .catch((err) => {
+      //     console.log("Error : ", err);
+      //   });
 
 
 
@@ -812,119 +1036,63 @@ export default {
 
     edit(inputd) {
 
-this.editdata = inputd[0];
-this.dialog1 = true;
-console.log("input selected : ", this.editdata.id);
-console.log("editdata selected : ", this.editdata);
-},
+      this.editdata = inputd[0];
+      this.dialog1 = true;
+      console.log("input selected : ", this.editdata.id);
+      console.log("editdata selected : ", this.editdata);
+    },
 
-async update() {
-this.dialog1 = false;
-console.log("edited data in update : ", this.editdata)
+    async update() {
+      this.dialog1 = false;
+      console.log("edited data in update : ", this.editdata)
 
-await axios.put("http://localhost:3000/DATA1/" + this.editdata.id, this.editdata).then((resp) => {
-  console.log(resp);
-  this.getapicall();
-}).catch((err) => {
-  console.log("Error : ", err);
-})
+      await axios.put("http://localhost:3000/database1/" + this.editdata.id, this.editdata).then((resp) => {
+        console.log(resp);
+        this.getapicall();
+      }).catch((err) => {
+        console.log("Error : ", err);
+      })
 
-}
+    }
 
 
   },
 
-  // watch: {
-  //   dialog(val) {
-  //     val || this.close()
-  //   },
-  //   dialogDelete(val) {
-  //     val || this.closeDelete()
-  //   },
-  // },
 
 }
 </script>
 
 <style>
-/* .table_border {
+.table_border {
   border: 1px solid black;
   background-color: azure;
 
-} */
+}
 
-.custom {
+.bAll {
   border: 1px solid black;
+}
+.bTop{
+  border-top: 1px solid black;
+}
+
+.bBottom
+{
+  border-bottom: 1px solid black;
+}
+
+.bLeft
+{
+  border-left: 1px solid black;
+}
+
+.bRight
+{
+  border-right: 1px solid black;
+}
+.layout {
+    padding: 8px 23px;
+    width: 10rem;
 }
 </style>
 
-
-    <!-- ********** REQUIRED METHODS **************** -->
-
-
-
-  <!-- // created() {
-  //   this.initialize()
-  // },
-
-  // methods: {
-  //   initialize() {
-
-
-  //     //  this.desserts = table.data
-
-  //     // Hard Coded Data 
-  //     this.desserts = []
-  //   },
-
-  //   editItem(item) {
-  //     this.editedIndex = this.desserts.indexOf(item)
-  //     // this.editedItem = Object.assign({}, item)
-  //     this.dialog = true
-  //   },
-
-  //   deleteItem(item) {
-  //     this.editedIndex = this.desserts.indexOf(item)
-  //     this.editedItem = Object.assign({}, item)
-  //     // this.editedIndex = this.desserts.indexOf(item)
-  //     // this.editedItem = Object.assign({}, item)
-
-  //     this.dialogDelete = true
-  //   },
-
-  //   deleteItemConfirm() {
-  //     this.desserts.splice(this.editedIndex, 1)
-  //     this.desserts.splice(this.editedIndex, 1)
-
-  //     this.closeDelete()
-  //   },
-
-  //   close() {
-  //     this.dialog = false
-  //     this.$nextTick(() => {
-  //       this.editedItem = Object.assign({}, this.defaultItem)
-  //       this.editedIndex = -1
-  //     })
-  //   },
-
-  //   closeDelete() {
-  //     this.dialogDelete = false
-  //     this.$nextTick(() => {
-  //       this.editedItem = Object.assign({}, this.defaultItem)
-  //       this.editedIndex = -1
-  //     })
-  //   },
-
-  //   // save() {
-  //   //   if (this.editedIndex > -1) {
-  //   //     Object.assign(this.desserts[this.editedIndex], this.editedItem)
-
-  //   //   }
-  //   //   else {
-  //   //     this.desserts.push(this.editedItem)
-  //   //     this.desserts.push(this.editedItem2)
-
-  //   //   }
-  //   //   this.close()
-  //   // },
-  // }, -->
